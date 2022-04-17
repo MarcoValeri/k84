@@ -2,10 +2,13 @@
 // Set title of the page
 $title = 'Home';
 
-// Include header.php
+// Include head.php
 include_once pathView('layout/head.php');
+
+// Include header.php
+include_once pathView('layout/header.php');
 ?>
-<h2>Kitchen 1984</h2>
+
 <?php
 // Include footer.php
 include_once pathView('layout/footer.php');

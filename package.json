@@ -1,0 +1,23 @@
+{
+  "name": "k84",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss/main.scss css/main.css -2w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoValeri/k84.git"
+  },
+  "author": "Marco Valeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoValeri/k84/issues"
+  },
+  "homepage": "https://github.com/MarcoValeri/k84#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
