@@ -57,23 +57,16 @@ html {
     visibility: visible;
     transform: scale(1); }
 
-.footer {
+.header {
   position: relative;
-  height: auto;
-  min-height: 30vh;
-  border: 1px solid #000; }
-  .footer__container-content {
+  height: 40vh; }
+  .header__container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-  .footer__signature {
-    font-size: 1.6rem; }
-  .footer__heart {
-    font-size: 2.5rem;
-    color: #f00; }
-  .footer__sign {
-    font-weight: 900; }
+  .header__title {
+    font-size: 3rem; }
 
 .nav {
   padding: 2rem;
@@ -125,3 +118,21 @@ html {
     @media only screen and (max-width: 1199px) {
       .nav__item {
         display: block; } }
+
+.footer {
+  position: relative;
+  height: auto;
+  min-height: 30vh;
+  border: 1px solid #000; }
+  .footer__container-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .footer__signature {
+    font-size: 1.6rem; }
+  .footer__heart {
+    font-size: 2.5rem;
+    color: #f00; }
+  .footer__sign {
+    font-weight: 900; }

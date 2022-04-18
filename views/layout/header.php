@@ -11,10 +11,13 @@
                 <li class="nav__item"><a class="link-load" href="#">Ricette</a></li>
                 <li class="nav__item"><a class="link-load" href="#">Strumenti da cucina</a></li>
                 <li class="nav__item logo"><a class="link-no" href="#">Kitchen1984</a></li>
-                <li class="nav__item"><a class="link-load" href="#">Guide</a></li>
+                <li class="nav__item"><a class="link-load" href="#">Guide in cucina</a></li>
                 <li class="nav__item"><a class="link-load" href="#">Chi siamo</a></li>
                 <li class="nav__item"><a class="link-load" href="#">Contatti</a></li>
             </ul>
         </div>
     </nav>
+    <div class="header__container">
+        <h2 class="header__title">Cosa vuoi cucinare?</h2>
+    </div>
 </header>
