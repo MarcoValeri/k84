@@ -6,7 +6,7 @@
         <title><?= isset($title) ? $title : 'Kitchen 1984'; ?></title>
 
         <!-- Import style file -->
-        <link rel="stylesheet" href="<?= pathPublic('css/main.css'); ?>">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
     

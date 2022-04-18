@@ -5,7 +5,7 @@
  * @param string $file as the name of 
  * a file's view and
  * @return string right path into the
- * folder views
+ * folder public
  */
 function pathPublic(string $file): string {
     $path = PUBLIC_PATH . '/' . $file;
